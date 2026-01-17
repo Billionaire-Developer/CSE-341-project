@@ -1,0 +1,33 @@
+GET http://localhost:3000/users
+
+### Get Contact by ID
+
+GET http://localhost:3000/users/695f338901557fd022dadac5
+
+### Create Contacts
+
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "lawanipaul88@gmail.com",
+    "username": "Paully",
+    "name": "Lawani Tycoon",
+    "ipaddress": "192:23:12:98"
+}
+
+### Put Contacts
+
+PUT http://localhost:3000/users/695f338901557fd022dadac5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "ogbonayachigozie@gmail.com",
+    "username": "Chibex",
+    "name": "Chigozie"
+
+}
+
+### Delete Contacts
+
+DELETE http://localhost:3000/users/696bab6aa2079662a09065a4
