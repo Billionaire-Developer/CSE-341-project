@@ -1,8 +1,9 @@
+
 GET http://localhost:3000/users
 
 ### Get Contact by ID
 
-GET http://localhost:3000/users/695f338901557fd022dadac5
+GET http://localhost:3000/users/696c0e0e4b2f8cb58fcf9436
 
 ### Create Contacts
 
@@ -19,12 +20,13 @@ Content-Type: application/json
 
 ### Put Contacts
 
-PUT http://localhost:3000/users/695f338901557fd022dadac5 HTTP/1.1
+PUT http://localhost:3000/users/696c0e0e4b2f8cb58fcf9436 HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "Chigozie",
-    "email": "ogbonayachigozie@gmail.com"
+    "firstName": "Tycoon",
+    "lastName": "Paully",
+    "email": "lawanipaul88@gmail.com"
 
 }
 
